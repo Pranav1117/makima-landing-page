@@ -13,7 +13,7 @@ const Card = ({ title, content, height, width }: CardProps) => (
       {title}
     </h2> */}
     {/* <p>{content}</p> */}
-    <Image src={content} height={height} width={width} alt="s"  className=" "/>
+    <Image src={content} height={height} width={width} alt="s"  className=" object-contain"/>
   </div>
 );
 
